@@ -19,7 +19,7 @@ int main() {
   assert(Crypto::hex(Crypto::sha256("Thon", 1)) == "5be42e729ca798b5fe57b31c065992959067fe3d5ef3f954c223a5c1a2ae6928");
   
   //Results copied from http://www.xorbin.com/tools/sha256-hash-calculator
-  assert(Crypto::hex(Crypto::sha256("Kongsberg", 1)) == "de3c2f740b53e35a42f1bf2354040bc8322849be016906b66448a05fc4adcafd033be04d66aa04660dfed0e47aa432012f1d13190f8ee457335d1b2321b0d347");
+  assert(Crypto::hex(Crypto::sha512("Kongsberg", 1)) == "de3c2f740b53e35a42f1bf2354040bc8322849be016906b66448a05fc4adcafd033be04d66aa04660dfed0e47aa432012f1d13190f8ee457335d1b2321b0d347");
   
 }
   
